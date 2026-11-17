@@ -1,0 +1,801 @@
+{
+  "id": "cost-yza089a",
+  "project": "YZA089A",
+  "title": "SEPHORA YZA089A",
+  "currency": "USD",
+  "sourceFile": "YZA089A Product Costing Analysis Sheet v1.xlsx",
+  "sheet": " CAP 1",
+  "historicalTotal": 0.22599846666666668,
+  "quantity": 0,
+  "lines": [
+    {
+      "id": "mat-4",
+      "section": "Matière",
+      "name": "cap · PET Claro 200",
+      "kind": "material",
+      "netWeight": 5.5,
+      "runner": 12,
+      "cavities": 8,
+      "ratio": 1,
+      "price": 3.78,
+      "cycle": 1,
+      "workers": 0,
+      "labor": 0,
+      "machine": 0,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 1,
+      "perBox": 1,
+      "reject": 3.0,
+      "assemblyReject": 0,
+      "source": "F4:Q4",
+      "historical": 0.0272538
+    },
+    {
+      "id": "mat-6",
+      "section": "Matière",
+      "name": "base · PET Claro 200",
+      "kind": "material",
+      "netWeight": 6.5,
+      "runner": 0,
+      "cavities": 8,
+      "ratio": 1,
+      "price": 3.78,
+      "cycle": 1,
+      "workers": 0,
+      "labor": 0,
+      "machine": 0,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 1,
+      "perBox": 1,
+      "reject": 3.0,
+      "assemblyReject": 0,
+      "source": "F6:Q6",
+      "historical": 0.0253071
+    },
+    {
+      "id": "inj-11",
+      "section": "Injection",
+      "name": "cap · DAPAI 230T",
+      "kind": "process",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 8,
+      "ratio": 1,
+      "price": 0,
+      "cycle": 36,
+      "workers": 2,
+      "labor": 3,
+      "machine": 23.38,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 1,
+      "perBox": 1,
+      "reject": 3.0,
+      "assemblyReject": 3.0,
+      "source": "D11:Q11",
+      "historical": 0.0389615525
+    },
+    {
+      "id": "inj-12",
+      "section": "Injection",
+      "name": "base · DAPAI 230T",
+      "kind": "process",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 8,
+      "ratio": 1,
+      "price": 0,
+      "cycle": 36,
+      "workers": 1,
+      "labor": 3,
+      "machine": 23.38,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 1,
+      "perBox": 1,
+      "reject": 3.0,
+      "assemblyReject": 3.0,
+      "source": "D12:Q12",
+      "historical": 0.034983177500000004
+    },
+    {
+      "id": "ss-21",
+      "section": "Sérigraphie",
+      "name": "cap · Black UV ink",
+      "kind": "process",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 1,
+      "ratio": 1,
+      "price": 0,
+      "cycle": 6,
+      "workers": 2,
+      "labor": 3,
+      "machine": 7,
+      "consumableWeight": 0.025,
+      "consumablePrice": 33.56,
+      "quantity": 1,
+      "perBox": 1,
+      "reject": 3.0,
+      "assemblyReject": 0,
+      "source": "E21:Q21",
+      "historical": 0.023180836666666666
+    },
+    {
+      "id": "pin-24",
+      "section": "Composants",
+      "name": "Pin · Plastic pin",
+      "kind": "purchase",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 1,
+      "ratio": 1,
+      "price": 0.0022,
+      "cycle": 1,
+      "workers": 0,
+      "labor": 0,
+      "machine": 0,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 2,
+      "perBox": 1,
+      "reject": 3.0,
+      "assemblyReject": 0,
+      "source": "M24:Q24",
+      "historical": 0.0045320000000000004
+    },
+    {
+      "id": "ass-27",
+      "section": "Assemblage",
+      "name": "Hinge Lubrication",
+      "kind": "process",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 1,
+      "ratio": 1,
+      "price": 0,
+      "cycle": 6,
+      "workers": 1,
+      "labor": 3,
+      "machine": 0,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 1,
+      "perBox": 1,
+      "reject": 3.0,
+      "assemblyReject": 0,
+      "source": "E27:Q27",
+      "historical": 0.00515
+    },
+    {
+      "id": "ass-28",
+      "section": "Assemblage",
+      "name": "Lid and Base Assembly",
+      "kind": "process",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 1,
+      "ratio": 1,
+      "price": 0,
+      "cycle": 6,
+      "workers": 1,
+      "labor": 3,
+      "machine": 0,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 1,
+      "perBox": 1,
+      "reject": 3.0,
+      "assemblyReject": 0,
+      "source": "E28:Q28",
+      "historical": 0.00515
+    },
+    {
+      "id": "ass-29",
+      "section": "Assemblage",
+      "name": "Pin Assembly ",
+      "kind": "process",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 1,
+      "ratio": 1,
+      "price": 0,
+      "cycle": 6,
+      "workers": 1,
+      "labor": 3,
+      "machine": 5,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 1,
+      "perBox": 1,
+      "reject": 3.0,
+      "assemblyReject": 0,
+      "source": "E29:Q29",
+      "historical": 0.013733333333333335
+    },
+    {
+      "id": "ass-30",
+      "section": "Assemblage",
+      "name": "Functional Inspection",
+      "kind": "process",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 1,
+      "ratio": 1,
+      "price": 0,
+      "cycle": 6,
+      "workers": 1,
+      "labor": 3,
+      "machine": 0,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 1,
+      "perBox": 1,
+      "reject": 3.0,
+      "assemblyReject": 0,
+      "source": "E30:Q30",
+      "historical": 0.00515
+    },
+    {
+      "id": "ass-31",
+      "section": "Assemblage",
+      "name": "Cosmetic Inspection",
+      "kind": "process",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 1,
+      "ratio": 1,
+      "price": 0,
+      "cycle": 6,
+      "workers": 1,
+      "labor": 3,
+      "machine": 0,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 1,
+      "perBox": 1,
+      "reject": 3.0,
+      "assemblyReject": 0,
+      "source": "E31:Q31",
+      "historical": 0.00515
+    },
+    {
+      "id": "ass-32",
+      "section": "Assemblage",
+      "name": "Packaging",
+      "kind": "process",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 1,
+      "ratio": 1,
+      "price": 0,
+      "cycle": 6,
+      "workers": 2,
+      "labor": 3,
+      "machine": 0,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 1,
+      "perBox": 1,
+      "reject": 3.0,
+      "assemblyReject": 0,
+      "source": "E32:Q32",
+      "historical": 0.0103
+    },
+    {
+      "id": "pack-35",
+      "section": "Emballage",
+      "name": "Box 400*400*255",
+      "kind": "packing",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 1,
+      "ratio": 1,
+      "price": 0.74,
+      "cycle": 1,
+      "workers": 0,
+      "labor": 0,
+      "machine": 0,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 1,
+      "perBox": 960,
+      "reject": 0,
+      "assemblyReject": 0,
+      "source": "K35:N35; I35",
+      "historical": 0.0007708333333333333
+    },
+    {
+      "id": "pack-36",
+      "section": "Emballage",
+      "name": "Wave tray 385*385",
+      "kind": "packing",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 1,
+      "ratio": 1,
+      "price": 0.06,
+      "cycle": 1,
+      "workers": 0,
+      "labor": 0,
+      "machine": 0,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 16,
+      "perBox": 960,
+      "reject": 0,
+      "assemblyReject": 0,
+      "source": "K36:N36; I35",
+      "historical": 0.001
+    },
+    {
+      "id": "pack-37",
+      "section": "Emballage",
+      "name": "Paper board 385*385",
+      "kind": "packing",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 1,
+      "ratio": 1,
+      "price": 0.052,
+      "cycle": 1,
+      "workers": 0,
+      "labor": 0,
+      "machine": 0,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 2,
+      "perBox": 960,
+      "reject": 0,
+      "assemblyReject": 0,
+      "source": "K37:N37; I35",
+      "historical": 0.00010833333333333333
+    },
+    {
+      "id": "pack-38",
+      "section": "Emballage",
+      "name": "Po Film 500*500*0,02",
+      "kind": "packing",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 1,
+      "ratio": 1,
+      "price": 0.0049,
+      "cycle": 1,
+      "workers": 0,
+      "labor": 0,
+      "machine": 0,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 32,
+      "perBox": 960,
+      "reject": 0,
+      "assemblyReject": 0,
+      "source": "K38:N38; I35",
+      "historical": 0.00016333333333333334
+    },
+    {
+      "id": "pack-39",
+      "section": "Emballage",
+      "name": "PE Bag 800*500*0,03",
+      "kind": "packing",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 1,
+      "ratio": 1,
+      "price": 0.1,
+      "cycle": 1,
+      "workers": 0,
+      "labor": 0,
+      "machine": 0,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 1,
+      "perBox": 960,
+      "reject": 0,
+      "assemblyReject": 0,
+      "source": "K39:N39; I35",
+      "historical": 0.00010416666666666667
+    },
+    {
+      "id": "transport",
+      "section": "Transport",
+      "name": "Transport par produit",
+      "kind": "transport",
+      "netWeight": 0,
+      "runner": 0,
+      "cavities": 1,
+      "ratio": 1,
+      "price": 0.025,
+      "cycle": 1,
+      "workers": 0,
+      "labor": 0,
+      "machine": 0,
+      "consumableWeight": 0,
+      "consumablePrice": 0,
+      "quantity": 1,
+      "perBox": 1,
+      "reject": 0,
+      "assemblyReject": 0,
+      "source": "R42",
+      "historical": 0.025
+    }
+  ],
+  "catalogs": {
+    "resins": [
+      {
+        "source": "Data!C3",
+        "values": [
+          "PETG SH2001",
+          4.28
+        ]
+      },
+      {
+        "source": "Data!C4",
+        "values": [
+          "PETG LL200",
+          4.28
+        ]
+      },
+      {
+        "source": "Data!C5",
+        "values": [
+          "PET Claro 200",
+          3.78
+        ]
+      },
+      {
+        "source": "Data!C6",
+        "values": [
+          "Claro-100 CR50",
+          3.69
+        ]
+      },
+      {
+        "source": "Data!C7",
+        "values": [
+          "PET LIGHTER C93 ",
+          1.9
+        ]
+      },
+      {
+        "source": "Data!C8",
+        "values": [
+          "LDPE 951-050",
+          1.15
+        ]
+      },
+      {
+        "source": "Data!C9",
+        "values": [
+          "HDPE 1250",
+          1.14
+        ]
+      },
+      {
+        "source": "Data!C10",
+        "values": [
+          "POM M270-57",
+          2.32
+        ]
+      },
+      {
+        "source": "Data!C11",
+        "values": [
+          "ABS707K/GP22/757/757F",
+          2.13
+        ]
+      },
+      {
+        "source": "Data!C12",
+        "values": [
+          "PCR ABS 710NA/SP230",
+          2.67
+        ]
+      }
+    ],
+    "masterbatches": [
+      {
+        "source": "Data!F3",
+        "values": [
+          "Transparent ",
+          0
+        ]
+      },
+      {
+        "source": "Data!F4",
+        "values": [
+          "Black S0-0109 4%",
+          0
+        ]
+      },
+      {
+        "source": "Data!F5",
+        "values": [
+          "Black S0-0418A 4%",
+          0
+        ]
+      },
+      {
+        "source": "Data!F6",
+        "values": [
+          "S0-0107 Black",
+          5.45
+        ]
+      }
+    ],
+    "machines": [
+      {
+        "source": "Data!I3",
+        "values": [
+          "FANUC 220T",
+          3,
+          23.375
+        ]
+      },
+      {
+        "source": "Data!I4",
+        "values": [
+          "FANUC 150T",
+          3,
+          19.25
+        ]
+      },
+      {
+        "source": "Data!I5",
+        "values": [
+          "DAPAI 270T",
+          3,
+          23.375
+        ]
+      },
+      {
+        "source": "Data!I6",
+        "values": [
+          "DAPAI 230T",
+          3,
+          23.38
+        ]
+      },
+      {
+        "source": "Data!I7",
+        "values": [
+          "DAPAI 180T",
+          3,
+          19.25
+        ]
+      },
+      {
+        "source": "Data!I8",
+        "values": [
+          "DAPAI 140T",
+          3,
+          19.25
+        ]
+      },
+      {
+        "source": "Data!I9",
+        "values": [
+          "Semi auto silk screen machine ",
+          3,
+          7
+        ]
+      },
+      {
+        "source": "Data!I10",
+        "values": [
+          "Semi auto hot stamping machine",
+          3,
+          7
+        ]
+      },
+      {
+        "source": "Data!I11",
+        "values": [
+          "Semi auto assembling machine ",
+          3,
+          7
+        ]
+      },
+      {
+        "source": "Data!I12",
+        "values": [
+          "Automatic assembling machine ",
+          3,
+          10
+        ]
+      }
+    ],
+    "packaging": [
+      {
+        "source": "Data!M3",
+        "values": [
+          "Box 400*400*255",
+          0.74
+        ]
+      },
+      {
+        "source": "Data!M4",
+        "values": [
+          "Wave tray 385*385",
+          0.06
+        ]
+      },
+      {
+        "source": "Data!M5",
+        "values": [
+          "Paper board 385*385",
+          0.052
+        ]
+      },
+      {
+        "source": "Data!M6",
+        "values": [
+          "Po Film 500*500*0,02",
+          0.0049
+        ]
+      },
+      {
+        "source": "Data!M7",
+        "values": [
+          "PE Bag 800*500*0,03",
+          0.1
+        ]
+      }
+    ],
+    "inks": [
+      {
+        "source": "Data!P3",
+        "values": [
+          "Black UV ink ",
+          33.56
+        ]
+      }
+    ],
+    "purchased": [
+      {
+        "source": "Data!S3",
+        "values": [
+          "Pin ",
+          0.0022
+        ]
+      },
+      {
+        "source": "Data!S4",
+        "values": [
+          "Mirror ",
+          0
+        ]
+      },
+      {
+        "source": "Data!S5",
+        "values": [
+          "Magnet ",
+          0
+        ]
+      },
+      {
+        "source": "Data!S6",
+        "values": [
+          "Glue ",
+          0
+        ]
+      },
+      {
+        "source": "Data!S7",
+        "values": [
+          "Weight ",
+          0
+        ]
+      }
+    ],
+    "assembly": [
+      {
+        "source": "Data!V3",
+        "values": [
+          "Mirror Assembly",
+          0,
+          3
+        ]
+      },
+      {
+        "source": "Data!V4",
+        "values": [
+          "Magnet Assembly",
+          5,
+          3
+        ]
+      },
+      {
+        "source": "Data!V5",
+        "values": [
+          "Insert Assembly",
+          5,
+          3
+        ]
+      },
+      {
+        "source": "Data!V6",
+        "values": [
+          "Lid and Base Assembly",
+          0,
+          3
+        ]
+      },
+      {
+        "source": "Data!V7",
+        "values": [
+          "Pin Assembly ",
+          5,
+          3
+        ]
+      },
+      {
+        "source": "Data!V8",
+        "values": [
+          "Functional Inspection",
+          0,
+          3
+        ]
+      },
+      {
+        "source": "Data!V9",
+        "values": [
+          "Cosmetic Inspection",
+          0,
+          3
+        ]
+      },
+      {
+        "source": "Data!V10",
+        "values": [
+          "Packaging",
+          0,
+          3
+        ]
+      },
+      {
+        "source": "Data!V11",
+        "values": [
+          "Hinge Lubrication",
+          0,
+          3
+        ]
+      },
+      {
+        "source": "Data!V12",
+        "values": [
+          "Double-Sided Tape Application",
+          0,
+          3
+        ]
+      },
+      {
+        "source": "Data!V13",
+        "values": [
+          "Glue Application",
+          5,
+          3
+        ]
+      },
+      {
+        "source": "Data!V14",
+        "values": [
+          "Ultrasonic Welding",
+          5,
+          3
+        ]
+      }
+    ]
+  },
+  "warnings": [
+    "Aucune quantité commandée, date de livraison ou référence article détaillée n’est fournie. La quantité du chiffrage reste à renseigner.",
+    "Méthode historique Excel : les majorations de rebut multiplient les coûts par (1 + taux). Il ne s’agit pas d’un calcul par rendement.",
+    "Les recherches de résine et certaines recherches machine utilisent VLOOKUP sans correspondance exacte explicite. Les prix retrouvés et enregistrés ont été conservés pour rapprochement.",
+    "Les tarifs horaires de Data sont utilisés par le chiffrage ; ils ne sont pas liés aux calculs d’amortissement de Data 2. Aucune mise à jour automatique entre ces feuilles n’est supposée.",
+    "Les prix de Data sont libellés taxes comprises ; le chiffrage indique USD. Les conventions fiscales et la date de validité des prix sont à confirmer.",
+    "Les lignes de masterbatch transparent à ratio nul n’ont aucun impact sur le total historique. Elles figurent dans le catalogue de référence."
+  ]
+}
